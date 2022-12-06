@@ -6,7 +6,7 @@ services:
     tty: true
     environment:
       QR_CODE_IMAGE_DIRECTORY: 'images'
-      QR_CODE_DEFAULT_URL: 'https://www.google.com'
-      QR_CODE_DEFAULT_FILE_NAME: 'google.png'
+      QR_CODE_DEFAULT_URL: 'https://hub.docker.com/repository/docker/dombino/isqrcode'
+      QR_CODE_DEFAULT_FILE_NAME: 'domurso-docker.png'
     volumes:
       - .:/home/myuser
